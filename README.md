@@ -2,4 +2,18 @@
 
 Backend for appsync masterclass demo app
 
-test commit
+# Deploy serverless stack
+
+$ npm run sls -- deploy
+
+# Export environment variables from provider environment
+
+$ npm run sls -- export-env
+
+# Export environment variables for specific function
+
+$ npm run sls -- export-env --function confirmUserSignup --filename **tests**/test_cases/integration/confirm-user-signup/.env
+
+# Export serverless outputs
+
+$

@@ -1,0 +1,36 @@
+{
+  "name": "appsyncmasterclass-backend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Backend for appsync masterclass demo app",
+  "main": "index.js",
+  "scripts": {
+    "sls": "sls",
+    "exportEnv": "sls export-env",
+    "integration-test": "jest --verbose ./__tests__/test_cases/integration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelssersconsultancy/appsyncmasterclass-backend.git"
+  },
+  "author": "Robby Pelssers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pelssersconsultancy/appsyncmasterclass-backend/issues"
+  },
+  "homepage": "https://github.com/pelssersconsultancy/appsyncmasterclass-backend#readme",
+  "devDependencies": {
+    "@types/jest": "^29.2.6",
+    "aws-sdk": "^2.1297.0",
+    "dotenv": "^16.0.3",
+    "jest": "^29.3.1",
+    "serverless": "^3.26.0",
+    "serverless-appsync-plugin": "^1.14.0",
+    "serverless-export-env": "github:arabold/serverless-export-env",
+    "serverless-export-outputs": "^1.0.2",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  },
+  "dependencies": {
+    "chance": "^1.1.9"
+  }
+}
