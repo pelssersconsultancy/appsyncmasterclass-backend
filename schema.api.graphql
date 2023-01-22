@@ -66,7 +66,7 @@ interface IProfile {
   followersCount: Int!
   followingCount: Int!
   tweetsCount: Int!
-  likesCounts: Int!
+  likesCount: Int!
 }
 
 type MyProfile implements IProfile {
@@ -84,7 +84,7 @@ type MyProfile implements IProfile {
   followersCount: Int!
   followingCount: Int!
   tweetsCount: Int!
-  likesCounts: Int!
+  likesCount: Int!
 }
 
 type OtherProfile implements IProfile {
@@ -102,7 +102,7 @@ type OtherProfile implements IProfile {
   followersCount: Int!
   followingCount: Int!
   tweetsCount: Int!
-  likesCounts: Int!
+  likesCount: Int!
   following: Boolean!
   followedBy: Boolean!
 }
