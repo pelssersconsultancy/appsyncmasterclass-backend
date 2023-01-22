@@ -13,6 +13,9 @@ mappingTemplates:
     # request and response not needed here as we following the plugin convention naming strategy
     # request: Query.getMyProfile.request.vtl
     # response: Query.getMyProfile.response.vtl
+  - type: Mutation
+    field: editMyProfile
+    dataSource: usersTable
 
 dataSources:
   - type: NONE
