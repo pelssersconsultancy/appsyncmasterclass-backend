@@ -1,5 +1,5 @@
 service: appsyncmasterclass-backend
-frameworkVersion: "3"
+frameworkVersion: "2"
 
 plugins:
   - serverless-appsync-plugin
@@ -15,7 +15,6 @@ provider:
   environment:
     STAGE: ${self:custom.stage}
     AWS_NODEJS_CONNECTION_REUSE_ENABLED: "1"
-    AWS_REGION: ${self:custom.region}
 
 package:
   exclude:

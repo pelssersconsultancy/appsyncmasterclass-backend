@@ -24,9 +24,9 @@
     "aws-sdk": "^2.1297.0",
     "dotenv": "^16.0.3",
     "jest": "^29.3.1",
-    "serverless": "^3.26.0",
+    "serverless": "^2.4.0",
     "serverless-appsync-plugin": "^1.14.0",
-    "serverless-export-env": "github:arabold/serverless-export-env",
+    "serverless-export-env": "^1.4.0",
     "serverless-export-outputs": "^1.0.2",
     "serverless-iam-roles-per-function": "^3.2.0"
   },
