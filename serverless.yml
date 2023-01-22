@@ -101,3 +101,5 @@ resources:
       Value: ${self:custom.region}
     CognitoUserPoolId:
       Value: !Ref CognitoUserPool
+    WebCognitoUserPoolClientId:
+      Value: !Ref WebUserPoolClient

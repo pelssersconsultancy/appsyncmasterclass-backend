@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const AWS = require("aws-sdk");
 
 const we_invoke_confirmUserSignup = async (username, name, email) => {
@@ -41,10 +43,11 @@ const a_user_signs_up = async (password, name, email) => {
       UserAttributes: [{ Name: "name", Value: name }],
     })
     .promise();
-
   const username = signUpResp.UserSub;
   console.log(`[${email}] - user has signed up [${username}]`);
 
+  // normally the user needs to verify himself but for testing purpose we
+  // can confirm as admin for that user
   await cognito
     .adminConfirmSignUp({
       UserPoolId: userPoolId,
