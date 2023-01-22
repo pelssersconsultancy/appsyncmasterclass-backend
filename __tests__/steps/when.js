@@ -6,8 +6,7 @@ const velocityTemplate = require("amplify-velocity-template");
 const GraphQL = require("../lib/graphql");
 
 const we_invoke_confirmUserSignup = async (username, name, email) => {
-  const handler =
-    require("../../functions/confirm-user-signup/confirm-user-signup").handler;
+  const handler = require("../../functions/confirm-user-signup").handler;
 
   const context = {};
   const event = {

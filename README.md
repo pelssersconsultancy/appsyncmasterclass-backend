@@ -17,3 +17,7 @@ $ npm run sls -- export-env --function confirmUserSignup --filename **tests**/te
 # Export outputs from cloudformation stack
 
 $ npm run sls -- manifest
+
+# generate cloudformation stacks
+
+$ npm run sls -- package
