@@ -5,7 +5,7 @@ plugins:
   - serverless-appsync-plugin
   - serverless-iam-roles-per-function
   - serverless-export-env
-  - serverless-export-outputs
+  # - serverless-export-outputs
 
 provider:
   name: aws
