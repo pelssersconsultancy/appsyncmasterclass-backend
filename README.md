@@ -14,6 +14,6 @@ $ npm run sls -- export-env
 
 $ npm run sls -- export-env --function confirmUserSignup --filename **tests**/test_cases/integration/confirm-user-signup/.env
 
-# Export serverless outputs
+# Export outputs from cloudformation stack
 
-$
+$ npm run sls -- manifest
